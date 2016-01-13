@@ -1,2 +1,2 @@
 # lixinyao.github.io
-李昕垚的博客
+李昕垚的部落格
