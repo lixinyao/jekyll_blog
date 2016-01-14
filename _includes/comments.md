@@ -1,13 +1,7 @@
-{% if site.duoshuo %}
-	{% if page.thread %}
 <!-- 多说评论框 start -->
-	<div class="ds-thread" data-thread-key="{{page.thread}}" data-title="{{page.title}}"
-	data-url="{{site.url}}{{page.url}}"></div>
-	{% else %}
+	<div class="ds-thread" data-thread-key="{{page.id}}" data-title="" data-url="{{site.url}}{{page.url}}"></div>
 <!-- 多说评论框 end -->
 <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
-<div class="ds-thread"/>
-<% endif %>
 <script type="text/javascript">
 var duoshuoQuery = {short_name:"lixinyao"};
 	(function() {
@@ -20,4 +14,3 @@ var duoshuoQuery = {short_name:"lixinyao"};
 	})();
 	</script>
 <!-- 多说公共JS代码 end -->
-<% endif %>
