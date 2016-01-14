@@ -2,9 +2,7 @@
 layout: post
 title: 拥抱git的世界
 categories: [git］
-tags:
-- git
-- github
+tags: [git]
 ---
 
 又是很久没有更新博客了，最近突发神经想要学习一下git，在此总结一些学习的东西
