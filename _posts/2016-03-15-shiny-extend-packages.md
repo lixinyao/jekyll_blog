@@ -17,4 +17,4 @@ shiny是R语言的一个web框架，刚开始学习shiny，在此mark一下shiny
 - `shinythemes` Themes for Shiny
 - `shinyTree` jsTree Bindings for Shiny
 
-shiny的学习主要通过![RStudio](https://www.rstudio.com/)和![雪晴数据网](http://www.xueqing.tv/)来学习
+shiny的学习主要通过[RStudio](https://www.rstudio.com/)和[雪晴数据网](http://www.xueqing.tv/)来学习
