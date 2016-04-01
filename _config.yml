@@ -1,6 +1,5 @@
-markdown: redcarpet
+markdown: kramdown
 permalink: /:year/:month/:title/
 url: http://lixinyao.github.io
 author: 李昕垚
 highlighter: pygments
-
