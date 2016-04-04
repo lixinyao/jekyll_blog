@@ -35,6 +35,6 @@ tags:
 
 # 怎么成为数据科学家
 
-有了上图，我们知道了数据团队各成员需要的技能，只要不断按标准充实就能不断接近数据科学家。下图是数据科学更的细分领域
+有了上图，我们知道了数据团队各成员需要的技能。下图是数据科学更的细分领域，学习了这些专业知识就是名副其实的数据科学家了
 
 ![](https://raw.githubusercontent.com/lixinyao/lixinyao.github.io/master/pictures/2016/scientist2.jpg)
