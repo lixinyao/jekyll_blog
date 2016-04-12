@@ -22,6 +22,7 @@ dim(mydata)
 # 输出txt
 write.table(mydata,file="yourpath",
             quote = FALSE,
+            row.names = FALSE,
             sep = "\t",
             fileEncoding = "UTF-8")
 {% endhighlight %}
