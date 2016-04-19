@@ -46,6 +46,7 @@ sudo scp /Users/lixinyao/alldata.sql remote_username@ip:datadir
 max_allowed_packet = 9999999M
 {% endhighlight %}
 
+## 导入数据
 
 {% highlight sql %}
 source datadir/data.sql
