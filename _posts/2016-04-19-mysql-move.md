@@ -37,3 +37,16 @@ sudo scp my.cnf remote_username@ip: /etc#复制文件到远程
 show variables like "datadir%";#查看数据存放目录
 sudo scp /Users/lixinyao/alldata.sql remote_username@ip:datadir
 {% endhighlight %}
+
+# 更改配置文件并导入数据
+
+## 更改my.cnf对于导入文件大小的限制
+
+{% highlight sql %}
+max_allowed_packet = 9999999M
+{% endhighlight %}
+
+
+{% highlight sql %}
+source datadir/data.sql
+{% endhighlight %}
