@@ -1,8 +1,7 @@
 ---
 layout: page
-title: Publication
+title: 作品
 comments: yes
 ---
 
 暂无
-

@@ -1,7 +1,7 @@
 ---
-title: links
+title: 友链
 layout: page
 comments: yes
 ---
 
-暂无
+[张虎](http://reset.pub)

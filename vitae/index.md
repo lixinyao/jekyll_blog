@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 简历（李昕垚）
+title: 李昕垚的简历
 ---
 
 # 联系方式
