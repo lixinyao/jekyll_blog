@@ -4,6 +4,7 @@ title: MySQL数据迁移到远程服务器
 categories: [SQL]
 tags:
 - SQL
+- 迁移数据
 ---
 
 今天遇到一个问题，需将MySQL数据迁移到远程服务器，下面说操作步骤

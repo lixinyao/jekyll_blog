@@ -1,8 +1,10 @@
 ---
 layout: post
 title: the pursuit of happiness
-categories: [life]
-tags: [life]
+categories: [生活]
+tags:
+- 当幸福来敲门
+- 理想与追求
 ---
 今天又一次观看了《当幸福来敲门》，威尔·史密斯出演克里斯·加纳，他的儿子杰登·史密斯出演克里斯的儿子克里斯托弗。
 

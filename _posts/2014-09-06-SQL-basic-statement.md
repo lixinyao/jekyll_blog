@@ -2,7 +2,9 @@
 layout: post
 title: SQL基本语句
 categories: [SQL]
-tags: [SQL]
+tags:
+- SQL
+- 增删改查
 ---
 
 简单介绍`SELECT`,`INSERT`,`UPDATE`,`DELETE`四大基本语句
@@ -35,7 +37,7 @@ WHERE子句运算符
 
 ## ORDER BY
 
-	SELECT <col> 
+	SELECT <col>
 	FROM table
 	WHERE <condition>
 	ORDER BY <col1>, <col2> DESC;
@@ -70,7 +72,7 @@ WHERE子句运算符
 
 # INSERT
 
-	INSERT INTO table 
+	INSERT INTO table
 	(col1,col2,...)
 	VALUES
 	(value1,value2,...)
@@ -89,10 +91,3 @@ WHERE子句运算符
 
 	DELETE table
 	WHERE ID =79110;
-
-	
-
-	
-
-	
-
