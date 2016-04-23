@@ -2,7 +2,9 @@
 layout: post
 title: R语言与多元线性回归
 categories: [R]
-tags: [R]
+tags:
+- R
+- 多元线性回归
 ---
 
 主要介绍线性回归的方法，用R来实现多元线性回归。

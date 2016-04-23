@@ -2,7 +2,9 @@
 layout: post
 title: MySQL数据类型的选择
 categories: [SQL]
-tags: [SQL]
+tags:
+- SQL
+- 数据类型
 ---
 本文介绍MySQL数据类型的选择，涉及字符型、数字型、日期型
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 如何成为数据科学家
-categories: [statistic]
+categories: [统计]
 tags:
 - 数学科学家
 - 统计

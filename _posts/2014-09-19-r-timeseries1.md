@@ -2,7 +2,9 @@
 layout: post
 title: R语言与时间序列分析
 categories: [R]
-tags: [R]
+tags:
+- R
+- 时间序列
 ---
 简单介绍R时间序列分析的流程
 
@@ -201,30 +203,29 @@ funggcast = function(dn, fit, fcast) {
   ds = as.data.frame(dn)
   names(ds) = "observed"
   ds$date = as.Date(time(dn))
-  
+
   # Extract the Fitted Values (need to figure out how to grab confidence
   # intervals)
   dfit = as.data.frame(exp(yfit$fitted))
   dfit$date = as.Date(time(yfit$fitted))
   names(dfit)[1] = "fitted"
-  
+
   ds = merge(ds, dfit, all.x = T)  #Merge fitted values with source and training data
-  
+
   # Exract the Forecast values and confidence intervals
   dfcastn = exp(as.data.frame(yfcast))
   dfcastn$date = as.Date(as.yearmon(row.names(dfcastn)))
   names(dfcastn) = c("forecast", "lo1", "hi1", "lo35", "hi35", "date")
-  
+
   pd <- rbind.fill(ds, dfcastn)  #final data.frame for use in ggplot
   return(pd)
 }
 pd = funggcast(MXJts,yfit,yfcast)
 pd[(dim(pd)[1]-4):dim(pd)[1],1] = as.Date(c("2015-07-01","2015-08-01","2015-09-01","2015-10-01","2015-11-01"))
 pd[78,4] = pd[78,2]
-p1a = ggplot(data = pd,aes(x = date,y = observed)) 
+p1a = ggplot(data = pd,aes(x = date,y = observed))
 p1a = p1a + geom_line(aes(y=fitted),col="firebrick",size=1) + geom_line(col="steelblue",size=1)
 p1a + geom_ribbon(aes(ymin=lo35,ymax=hi35),fill="pink") + geom_line(aes(y=forecast),col="black",size=1) + ylab("总现金")+theme_bw()
 {% endhighlight %}
 
 ![](https://raw.githubusercontent.com/lixinyao/lixinyao.github.io/master/pictures/2014/ts7.png)
-

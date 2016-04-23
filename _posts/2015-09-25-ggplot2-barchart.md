@@ -1,8 +1,11 @@
 ---
 layout: post
 title: ggplot2与条形图
-categories: [R]
-tags: [ggplot2]
+categories: [ggplot2]
+tags:
+- R
+- ggplot2
+- 条形图
 ---
 
 最近一段时间，准备把ggplot2系统的学习一下，避免做事儿的时候还要临时抱佛脚，临时看help。学习手册就是大家熟知的入门级的《R Graphics Cookbook》，基本上就是在这里记录一下自己的学习历程，并且加入一些自己的理解。那我们就从最简单的条形图开始ggplot2的学习之旅吧！

@@ -4,6 +4,7 @@ title: R语言批量处理文件
 categories: [R]
 tags:
 - R
+- 批处理
 ---
 
 # R读取文件夹下文件转化为数据框

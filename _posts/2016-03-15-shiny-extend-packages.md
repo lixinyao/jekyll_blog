@@ -2,7 +2,9 @@
 layout: post
 title: shiny扩展包
 categories: [R]
-tags: [R]
+tags:
+- R
+- shiny
 ---
 shiny是R语言的一个web框架，刚开始学习shiny，在此mark一下shiny的扩展包
 

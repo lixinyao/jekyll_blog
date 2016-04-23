@@ -1,10 +1,10 @@
 ---
 layout: post
 title: 统计基础之随机事件与概率
-categories: [statistic]
+categories: [统计]
 tags:
 - 统计
-- statistic
+- 随机事件与概率
 ---
 
 本文主要回顾随机事件与概率的基础概念，统计学出身比计算机出身的优势主要体现在对统计方法的理解程度上，所以对于基础知识要夯实
