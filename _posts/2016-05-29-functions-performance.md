@@ -40,7 +40,7 @@ system.time(dbGetQuery(con1,"select * from ..."))
 
 # read.table & fread
 
-3.5G的txt读入R
+3.5G的txt读入R，`fread`比`read.table`性能提升9倍
 
 {% highlight r %}
 system.time(read.table("/Users/lixinyao/Desktop/mydata1.txt",encoding = 'UTF-8',stringsAsFactors=FALSE,header=TRUE,sep='\t'))
