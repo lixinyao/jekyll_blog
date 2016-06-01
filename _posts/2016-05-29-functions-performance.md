@@ -30,23 +30,26 @@ tags:
 18335813行、41列的MySQL表读入R数据框。`dbGetQuery`稍快，比`dbFetch`快10%
 
 {% highlight r %}
-system.time(dbFetch(res1,n=-1))
-   用户    系统    流逝
+> system.time(dbFetch(res1,n=-1))
+用户    系统    流逝
 155.731  79.814 286.987
-system.time(dbGetQuery(con1,"select * from ..."))
-   用户    系统    流逝
+> system.time(dbGetQuery(con1,"select * from ..."))
+用户    系统    流逝
 140.896  85.054 263.626
 {% endhighlight %}
 
-# read.table & fread
+# read.table & fread & read_tsv
 
-3.5G的txt读入R，`fread`比`read.table`性能提升9倍
+3.5G的txt读入R，`fread`比`read.table`性能提升7倍，比hadley大神readr包里的`read_tsv`提升1倍
 
 {% highlight r %}
-system.time(read.table("/Users/lixinyao/Desktop/mydata1.txt",encoding = 'UTF-8',stringsAsFactors=FALSE,header=TRUE,sep='\t'))
-   用户    系统    流逝             
+> system.time(read.table("mydata1.txt",encoding = 'UTF-8',stringsAsFactors=FALSE,header=TRUE,sep='\t'))
+用户    系统    流逝             
 532.444 193.950 810.850
-system.time(fread("mydata.txt",encoding = 'UTF-8',stringsAsFactors=FALSE))
-  用户   系统   流逝
+> system.time(fread("mydata.txt",encoding = 'UTF-8',stringsAsFactors=FALSE))
+用户   系统   流逝
 64.570 17.121 97.714
+> system.time(read_tsv("mydata1.txt"))
+用户    系统    流逝
+156.835  25.569 204.533
 {% endhighlight %}
