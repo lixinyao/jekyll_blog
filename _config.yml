@@ -1,4 +1,6 @@
-markdown: kramdown
+markdown: redcarpet
+redcarpet:
+    extensions: ["fenced_code_blocks", "tables", "highlight", "with_toc_data", "strikethrough", "underline"]
 permalink: /:year/:month/:title/
 url: http://lixinyao.github.io
 author: 李昕垚
