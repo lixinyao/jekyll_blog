@@ -63,27 +63,27 @@ tags:
 - 散点图矩阵`scatterplotMatrix(dataframe)`
 - 线性拟合
 
-{% highlight r %}
+```r
 > fit=lm(y ~ x1 + x2 + x3 ..., data = dataframe)
 > summary(fit)
-{% endhighlight %}
+```
 
 - 残差的正态性检验
 
-{% highlight r %}
+```r
 > library(car)
 > qqPlot(fit)
-{% endhighlight %}
+```
 
 - 残差的独立性检验`durbinWatsonTest(fit)`
 - 自变量和因变量的线性关系检验`crPlots(fit)`
 - 同方差性检验`ncvTest(fit)`和建议幂次转换(y)`spreadLevelPlot(fit)`
 - 多重共线性检验
 
-{% highlight r %}
+```r
 > vif(fit)
 > sqrt(vif(fit)) > 2 #全为FALSE无共线性
-{% endhighlight %}
+```
 
 ## 改进措施
 
@@ -97,10 +97,10 @@ tags:
 
 一般采用逐步回归法
 
-{% highlight r %}
+```r
 > library(MASS)
 > stepAIC(fit, direction = "both")
-{% endhighlight %}
+```
 
 注：
 fit全为`fit = lm(y ~ x1 + x2 + x3 ..., data = dataframe)`

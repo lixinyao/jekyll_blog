@@ -20,10 +20,10 @@ tags:
 
 接下来我们就开始详细介绍，先把该加载的包都加上
 
-{% highlight r %}
+```r
 library(ggplot2)
 library(gcookbook)
-{% endhighlight %}
+```
 
 # 简单条形图
 
@@ -33,7 +33,7 @@ library(gcookbook)
 
 以BOD数据集为例，一列是`Time`，一列是`demand`，做条形图
 
-{% highlight r %}
+```r
 > BOD
   Time demand
 1    1    8.3
@@ -43,16 +43,16 @@ library(gcookbook)
 5    5   15.6
 6    7   19.8
 > ggplot(BOD,aes(factor(Time),demand)) + geom_bar()
-{% endhighlight %}
+```
 
 ![](https://raw.githubusercontent.com/lixinyao/lixinyao.github.io/master/pictures/2015/barchart1.png)
 
 从大到小排序，且加数字标签
 
-{% highlight r %}
+```r
 > ggplot(BOD,aes(reorder(factor(Time),-demand),demand))  + geom_bar(stat="identity") +
 +   geom_text(aes(label=demand),vjust=1.5,color="white",size=7)
-{% endhighlight %}
+```
 
 ![](https://raw.githubusercontent.com/lixinyao/lixinyao.github.io/master/pictures/2015/barchart2.png)
 
@@ -60,7 +60,7 @@ library(gcookbook)
 
 以diamonds数据集为例，格式如下：
 
-{% highlight r %}
+```r
 > head(diamonds)
   carat       cut color clarity depth table price    x    y    z
 1  0.23     Ideal     E     SI2  61.5    55   326 3.95 3.98 2.43
@@ -69,11 +69,11 @@ library(gcookbook)
 4  0.29   Premium     I     VS2  62.4    58   334 4.20 4.23 2.63
 5  0.31      Good     J     SI2  63.3    58   335 4.34 4.35 2.75
 6  0.24 Very Good     J    VVS2  62.8    57   336 3.94 3.96 2.48
-{% endhighlight %}
+```
 
-{% highlight r %}
+```r
 > ggplot(diamonds,aes(x=cut)) + geom_bar(stat="bin")
-{% endhighlight %}
+```
 
 ![](https://raw.githubusercontent.com/lixinyao/lixinyao.github.io/master/pictures/2015/barchart3.png)
 
@@ -83,7 +83,7 @@ library(gcookbook)
 
 以cabbage_exp数据集为例
 
-{% highlight r %}
+```r
 > cabbage_exp
   Cultivar Date Weight        sd  n         se
 1      c39  d16   3.18 0.9566144 10 0.30250803
@@ -92,13 +92,13 @@ library(gcookbook)
 4      c52  d16   2.26 0.4452215 10 0.14079141
 5      c52  d20   3.11 0.7908505 10 0.25008887
 6      c52  d21   1.47 0.2110819 10 0.06674995
-{% endhighlight %}
+```
 
-{% highlight r %}
+```r
 > ggplot(cabbage_exp,aes(Date,Weight,fill=Cultivar)) +
 +   geom_bar(stat="identity",position="dodge") +
 +   scale_fill_brewer(palette="Pastel1")
-{% endhighlight %}
+```
 
 ![](https://raw.githubusercontent.com/lixinyao/lixinyao.github.io/master/pictures/2015/barchart4.png)
 
@@ -108,7 +108,7 @@ library(gcookbook)
 
 以csub数据集为例
 
-{% highlight r %}
+```r
 > csub = subset(climate,Source=="Berkeley"&Year>=1900)
 > csub$pos = csub$Anomaly10y>=0
 > head(csub)
@@ -119,12 +119,12 @@ library(gcookbook)
 104 Berkeley 1903        NA        NA     -0.199  0.104 FALSE
 105 Berkeley 1904        NA        NA     -0.223  0.105 FALSE
 106 Berkeley 1905        NA        NA     -0.241  0.107 FALSE
-{% endhighlight %}
+```
 
-{% highlight r %}
+```r
 ggplot(csub,aes(Year,Anomaly10y,fill=pos)) +
   geom_bar(stat="identity",position="identity")
-{% endhighlight %}
+```
 
 ![](https://raw.githubusercontent.com/lixinyao/lixinyao.github.io/master/pictures/2015/barchart7.png)
 
@@ -132,7 +132,7 @@ ggplot(csub,aes(Year,Anomaly10y,fill=pos)) +
 
 还是以cabbge_exp数据集为例
 
-{% highlight r %}
+```r
 > cabbage_exp
   Cultivar Date Weight        sd  n         se
 1      c39  d16   3.18 0.9566144 10 0.30250803
@@ -141,25 +141,25 @@ ggplot(csub,aes(Year,Anomaly10y,fill=pos)) +
 4      c52  d16   2.26 0.4452215 10 0.14079141
 5      c52  d20   3.11 0.7908505 10 0.25008887
 6      c52  d21   1.47 0.2110819 10 0.06674995
-{% endhighlight %}
+```
 
-{% highlight r %}
+```r
 > ggplot(cabbage_exp,aes(Date,Weight,fill=Cultivar)) +
 +   geom_bar(stat="identity",position="stack",width=0.7) +
 +   scale_fill_brewer(palette="Pastel1") +
 +   guides(fill=guide_legend(reverse=TRUE))
-{% endhighlight %}
+```
 
 ![](https://raw.githubusercontent.com/lixinyao/lixinyao.github.io/master/pictures/2015/barchart5.png)
 
 上个例子用`reverse=TRUE`来更改legend的顺序，现在用`order=desc`来解决
 
-{% highlight r %}
+```r
 > library(plyr)
 > ggplot(cabbage_exp,aes(Date,Weight,fill=Cultivar,order=desc(Cultivar))) +
 +   geom_bar(stat="identity",position="stack",width=0.7) +
 +   scale_fill_brewer(palette="Pastel1")
-{% endhighlight %}
+```
 
 ![](https://raw.githubusercontent.com/lixinyao/lixinyao.github.io/master/pictures/2015/barchart6.png)
 
@@ -167,7 +167,7 @@ ggplot(csub,aes(Year,Anomaly10y,fill=pos)) +
 
 以ce数据集为例，增加百分比列
 
-{% highlight r %}
+```r
 > library(plyr)
 > ce = ddply(cabbage_exp,"Date",transform,
 +             percent_weight = Weight/sum(Weight) * 100)
@@ -179,12 +179,12 @@ ggplot(csub,aes(Year,Anomaly10y,fill=pos)) +
 4      c52  d20   3.11 0.7908505 10 0.25008887       52.62267
 5      c39  d21   2.74 0.9834181 10 0.31098410       65.08314
 6      c52  d21   1.47 0.2110819 10 0.06674995       34.91686
-{% endhighlight %}
+```
 
-{% highlight r %}
+```r
 ggplot(ce,aes(x=Date,y=percent_weight,fill=Cultivar)) +
   geom_bar(stat="identity")
-{% endhighlight %}
+```
 
 ![](https://raw.githubusercontent.com/lixinyao/lixinyao.github.io/master/pictures/2015/barchart8.png)
 
@@ -192,7 +192,7 @@ ggplot(ce,aes(x=Date,y=percent_weight,fill=Cultivar)) +
 
 Cleveland点图是条形图的变种，有时候比条形图更清晰，以tophit数据集为例
 
-{% highlight r %}
+```r
 > tophit = tophitters2001[1:25, ]
 > tophit = tophit[, c("name","lg","avg")]
 > nameorder = tophit$name[order(tophit$lg,tophit$avg)]
@@ -205,9 +205,9 @@ Cleveland点图是条形图的变种，有时候比条形图更清晰，以tophi
 4 Roberto Alomar AL 0.3357
 5    Todd Helton NL 0.3356
 6    Moises Alou NL 0.3314
-{% endhighlight %}
+```
 
-{% highlight r %}
+```r
 > ggplot(tophit,aes(x=avg,y=name)) +
 +   geom_segment(aes(yend=name),xend=0,colour="grey50") +
 +   geom_point(size=3,aes(colour=lg)) +
@@ -215,7 +215,7 @@ Cleveland点图是条形图的变种，有时候比条形图更清晰，以tophi
 +   theme_bw() +
 +   theme(panel.grid.major.y = element_blank()) +
 +   facet_grid(lg ~ .,scales="free_y",space="free_y")
-{% endhighlight %}
+```
 
 ![](https://raw.githubusercontent.com/lixinyao/lixinyao.github.io/master/pictures/2015/barchart9.png)
 

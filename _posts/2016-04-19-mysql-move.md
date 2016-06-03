@@ -13,42 +13,42 @@ tags:
 
 由于数据量很小，用mysqldump可以直接导出为一个文件
 
-{% highlight shell %}
+```
 mysqldump -u username -p --all-databases > alldata.sql
-{% endhighlight %}
+```
 
 # 本地ssh连接远程
 
-{% highlight r %}
+```
 ssh username@ip
-{% endhighlight %}
+```
 
 # 复制本地my.cnf到服务器
 
-{% highlight shell %}
+```
 ssh username@ip
 sudo chmod 777 /etc
 exit
 sudo scp my.cnf remote_username@ip: /etc
-{% endhighlight %}
+```
 
 # 将.sql文件复制到远程datadir
 
-{% highlight shell %}
+```
 show variables like "datadir%";
 sudo scp /Users/lixinyao/alldata.sql remote_username@ip:datadir
-{% endhighlight %}
+```
 
 # 更改配置文件并导入数据
 
 ## 更改my.cnf对于导入文件大小的限制
 
-{% highlight shell %}
+```
 max_allowed_packet = 9999999M
-{% endhighlight %}
+```
 
 ## 导入数据
 
-{% highlight sql %}
+```sql
 source datadir/data.sql
-{% endhighlight %}
+```

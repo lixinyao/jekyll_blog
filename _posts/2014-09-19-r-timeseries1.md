@@ -12,7 +12,7 @@ tags:
 
 ## 加载包
 
-{% highlight r %}
+```r
 library(TSA)
 library(forecast)
 library(reshape2)
@@ -21,18 +21,18 @@ library(scales)
 library(ggplot2)
 library(plyr)
 library(xlsx)
-{% endhighlight %}
+```
 
 ## 原始时间序列
 
-{% highlight r %}
+```
 setwd("C:/Users/lixinyao_bj/Desktop/program/增值预估")
 Mxianjin=read.xlsx("增值现金预估.xlsx",2,header=T,encoding="UTF-8",stringsAsFactors=F)
 Mxianjin = na.omit(Mxianjin)
 MXJts = ts(Mxianjin$现金,frequency=12,start=c(2009,1))
 mydata = data.frame(M=index(MXJts),value=melt(MXJts)$value)
 ggplot(mydata,aes(M,value)) + geom_line(size=1) + geom_point(size=3) + theme_bw()
-{% endhighlight %}
+```
 
 ![](https://raw.githubusercontent.com/lixinyao/lixinyao.github.io/master/pictures/2014/ts1.png)
 
@@ -42,7 +42,7 @@ ggplot(mydata,aes(M,value)) + geom_line(size=1) + geom_point(size=3) + theme_bw(
 
 原假设：非平稳
 
-{% highlight r %}
+```r
 > adf.test(MXJts)
 Augmented Dickey-Fuller Test
 data:  MXJts
@@ -50,20 +50,20 @@ Dickey-Fuller = -4.3621, Lag order = 4, p-value = 0.01
 alternative hypothesis: stationary
 Warning message:
 In adf.test(MXJts) : p-value smaller than printed p-value
-{% endhighlight %}
+```
 
 ## 差分
 
-{% highlight r %}
+```r
 MXJtsDiff = diff(MXJts)
 mydata2 = data.frame(M=index(MXJtsDiff),value=melt(MXJtsDiff)$value)
-{% endhighlight %}
+```
 
 ### 一阶一次差分序列
 
-{% highlight r %}
+```r
 ggplot(mydata2,aes(M,value)) + geom_line(size=1) + geom_point(size=3) + theme_bw() + ylim(-2*10^8,2*10^8)
-{% endhighlight %}
+```
 
 ![](https://raw.githubusercontent.com/lixinyao/lixinyao.github.io/master/pictures/2014/ts2.png)
 
@@ -71,11 +71,11 @@ ggplot(mydata2,aes(M,value)) + geom_line(size=1) + geom_point(size=3) + theme_bw
 
 差分后效果很好
 
-{% highlight r %}
+```r
 MXJtsDiff2 = diff(MXJtsDiff,lag=12)
 mydata3 = data.frame(M=index(MXJtsDiff2),value=melt(MXJtsDiff2)$value)
 ggplot(mydata3,aes(M,value)) + geom_line(size=1) + geom_point(size=3) + theme_bw() + ylim(-2*10^8,2*10^8)
-{% endhighlight %}
+```
 
 ![](https://raw.githubusercontent.com/lixinyao/lixinyao.github.io/master/pictures/2014/ts3.png)
 
@@ -83,7 +83,7 @@ ggplot(mydata3,aes(M,value)) + geom_line(size=1) + geom_point(size=3) + theme_bw
 
 ## ACF
 
-{% highlight r %}
+```r
 qacf = function(x, conf.level = 0.95) {
   ciline = qnorm((1 - conf.level)/2)/sqrt(length(x))
   bacf = acf(x,lag.max=30, plot = FALSE)
@@ -99,13 +99,13 @@ qacf = function(x, conf.level = 0.95) {
 }
 p = qacf(as.vector(MXJtsDiff2))
 p
-{% endhighlight %}
+```
 
 ![](https://raw.githubusercontent.com/lixinyao/lixinyao.github.io/master/pictures/2014/ts4.png)
 
 ## PACF
 
-{% highlight r %}
+```r
 qpacf = function(x, conf.level = 0.95) {
   ciline = qnorm((1 - conf.level)/2)/sqrt(length(x))
   cacf = pacf(x,lag.max=30, plot = FALSE)
@@ -121,7 +121,7 @@ qpacf = function(x, conf.level = 0.95) {
 }
 d = qpacf(as.vector(MXJtsDiff2))
 d
-{% endhighlight %}
+```
 
 ![](https://raw.githubusercontent.com/lixinyao/lixinyao.github.io/master/pictures/2014/ts5.png)
 
@@ -133,7 +133,7 @@ d
 
 ## 采用bestAIC来定阶
 
-{% highlight r %}
+```r
 get.best.arima = function(x.ts, maxord = c(1,1,1,1,1,1))
 {
   best.aic = 1e8
@@ -156,13 +156,13 @@ get.best.arima = function(x.ts, maxord = c(1,1,1,1,1,1))
 best.arima.elec = get.best.arima(log(MXJts),maxord = c(1,1,1,1,1,1))
 best.fit.elec = best.arima.elec[[2]]
 bae = best.arima.elec [[3]]
-{% endhighlight %}
+```
 
 结果中的值就是ARIMA(p,d,q,P,D,Q)
 
 # 残差检验
 
-{% highlight r %}
+```r
 y=Arima(log(MXJts),order=c(bae[1],bae[2],bae[3]),seasonal=c(bae[4],bae[5],bae[6]),method="ML")
 rstandard(y)
 cacf = function(x, conf.level = 0.95) {
@@ -180,13 +180,13 @@ cacf = function(x, conf.level = 0.95) {
 }
 c = cacf(as.vector(rstandard(y)))
 c
-{% endhighlight %}
+```
 
 ![](https://raw.githubusercontent.com/lixinyao/lixinyao.github.io/master/pictures/2014/ts6.png)
 
 # 预测
 
-{% highlight r %}
+```r
 z = forecast(y,level=c(1,95))
 z$fitted
 z$residuals
@@ -226,6 +226,6 @@ pd[78,4] = pd[78,2]
 p1a = ggplot(data = pd,aes(x = date,y = observed))
 p1a = p1a + geom_line(aes(y=fitted),col="firebrick",size=1) + geom_line(col="steelblue",size=1)
 p1a + geom_ribbon(aes(ymin=lo35,ymax=hi35),fill="pink") + geom_line(aes(y=forecast),col="black",size=1) + ylab("总现金")+theme_bw()
-{% endhighlight %}
+```
 
 ![](https://raw.githubusercontent.com/lixinyao/lixinyao.github.io/master/pictures/2014/ts7.png)

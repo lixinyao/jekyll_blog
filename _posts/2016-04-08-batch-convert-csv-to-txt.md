@@ -9,7 +9,7 @@ tags:
 
 # R读取文件夹下文件转化为数据框
 
-{% highlight r %}
+```r
 # 读入文件名
 all.files = list.files(path = "yourpath",
                        full.name = TRUE,
@@ -26,4 +26,4 @@ write.table(mydata,file="yourpath",
             row.names = FALSE,
             sep = "\t",
             fileEncoding = "UTF-8")
-{% endhighlight %}
+```
