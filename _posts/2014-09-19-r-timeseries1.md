@@ -25,7 +25,7 @@ library(xlsx)
 
 ## 原始时间序列
 
-```
+```r
 setwd("C:/Users/lixinyao_bj/Desktop/program/增值预估")
 Mxianjin=read.xlsx("增值现金预估.xlsx",2,header=T,encoding="UTF-8",stringsAsFactors=F)
 Mxianjin = na.omit(Mxianjin)
