@@ -29,14 +29,14 @@ tags:
 
 18335813行、41列的MySQL表读入R数据框。`dbGetQuery`稍快，比`dbFetch`快10%
 
-{% highlight r %}
+```r
 > system.time(dbFetch(res1,n=-1))
 用户    系统    流逝
 155.731  79.814 286.987
 > system.time(dbGetQuery(con1,"select * from ..."))
 用户    系统    流逝
 140.896  85.054 263.626
-{% endhighlight %}
+```
 
 # read.table & fread & read_tsv
 
