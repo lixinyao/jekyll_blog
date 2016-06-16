@@ -1,6 +1,6 @@
 ---
 layout: post
-title: R函数的性能比较
+title: R导入数据的函数性能比较
 categories: [R]
 tags:
 - R
@@ -53,3 +53,5 @@ tags:
 用户    系统    流逝
 156.835  25.569 204.533
 ```
+
+需要注意的是，`fread`只能设定编码为 **UTF-8** 或者 **Latin-1** ，导致编码为 **gbk** 的文件会有乱码问题。从这一点看，`fread`还是无法完全覆盖`readr`
