@@ -33,3 +33,5 @@ write.table(mydata,file="yourpath",
 中文编码一般选 `GB18030`，这个应该是完全兼容`GBK`
 
 [hadley大神帮解决问题还是很开心的！](https://github.com/hadley/readr/issues/438)
+
+[以后解决识别文件编码问题](http://www.vim.org/scripts/script.php?script_id=1708)
