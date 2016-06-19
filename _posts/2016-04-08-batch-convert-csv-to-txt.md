@@ -27,3 +27,9 @@ write.table(mydata,file="yourpath",
             sep = "\t",
             fileEncoding = "UTF-8")
 ```
+
+# 关于encoding
+
+中文编码一般选 `GB18030`，这个应该是完全兼容`GBK`
+
+![hadley大神帮解决问题还是很开心的！](https://github.com/hadley/readr/issues/438)
