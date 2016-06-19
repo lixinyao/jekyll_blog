@@ -55,3 +55,11 @@ tags:
 ```
 
 需要注意的是，`fread`只能设定编码为 **UTF-8** 或者 **Latin-1** ，导致编码为 **gbk** 的文件会有乱码问题。从这一点看，`fread`还是无法完全覆盖`readr`
+
+
+`read_csv`的`locale`参数可以指定 **编码格式** ，另外还有一些时区等等方面的设置，详情查看帮助文档
+
+```r
+mydata = read_csv("/Users/lixinyao/Desktop/mydata.csv",
+                   locale = locale(encoding="GB18030"))
+```
