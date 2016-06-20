@@ -70,7 +70,7 @@ $$lnL(w)=\sum_{i=1}^{m}[y_{i}lnp_{i}+(1-y_{i})ln(1-p_{i})]$$
 geom_segment(aes(5,25,xend=4,yend=16),arrow=arrow(),size=1,color="red")
 ```
 
-![](https://raw.githubusercontent.com/lixinyao/lixinyao.github.io/master/pictures/2016/梯度下降.png)
+![](https://raw.githubusercontent.com/lixinyao/lixinyao.github.io/master/pictures/2016/gradient_descent.png)
 
 简单介绍一下梯度下降法。梯度下降法是一种寻找局部最优的算法。以上图的抛物线 $y=x^{2}+2$ 为例，假设我们选定初始点(5,27)，对于这个点对 $x$ 求偏导数为 $2x$ ，即4。沿着+4的方向，y值会变大，称为 **梯度上升**；沿着-4的方向，y值变小，称为 **梯度下降** 。
 
