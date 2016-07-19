@@ -16,3 +16,37 @@ layout: page
   </li>
 {% endfor %}
 </ul>
+
+<div id="post-pagination" class="paginator">
+
+  {% if paginator.previous_page %}
+    {% if paginator.previous_page == 1 %}
+    <a href="/blog"><上一页</a>
+    {% else %}
+    <a href="/blog/page{{paginator.previous_page}}"><上一页</a>
+    {% endif %}
+  {% else %}
+    <span class="previous disabled"><上一页</span>
+  {% endif %}
+
+      {% if paginator.page == 1 %}
+      <span class="current-page">1</span>
+      {% else %}
+      <a href="/blog">1</a>
+      {% endif %}
+
+    {% for count in (2..paginator.total_pages) %}
+      {% if count == paginator.page %}
+      <span class="current-page">{{count}}</span>
+      {% else %}
+      <a href="blog/page{{count}}">{{count}}</a>
+      {% endif %}
+    {% endfor %}
+
+  {% if paginator.next_page %}
+    <a class="next" href="/blog/page{{paginator.next_page}}">下一页></a>
+  {% else %}
+    <span class="next disabled" >下一页></span>
+  {% endif %}
+  (共{{ paginator.total_posts }}篇)
+</div>
