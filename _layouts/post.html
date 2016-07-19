@@ -9,9 +9,9 @@ layout: default
 <br/>
 <br/>
 <span>
-	<a {% if page.previous %} href="/blog/{{ page.previous.url }}" class="pageNav"{% endif %} {% unless page.previous %} class="pageNavInvalid" {% endunless %} >Previous</a>
+	<a {% if page.previous %} href="/{{ page.previous.url }}" class="pageNav"{% endif %} {% unless page.previous %} class="pageNavInvalid" {% endunless %} >Previous</a>
 	&nbsp;&nbsp;&nbsp;
-	<a {% if page.next %} href="/blog/{{ page.next.url }}" class="pageNav"{% endif %} {% unless page.next %} class="pageNavInvalid" {% endunless %} >Next</a>
+	<a {% if page.next %} href="/{{ page.next.url }}" class="pageNav"{% endif %} {% unless page.next %} class="pageNavInvalid" {% endunless %} >Next</a>
 </span>
 <hr>
 <span class="author">
@@ -29,7 +29,7 @@ layout: default
 <span class="categories">
   in categories
   {% for cat in page.categories %}
-  <a href="{{ site.url }}/blog/categories/#{{ cat }}" title="{{ cat }}">{{ cat }}</a>&nbsp;
+  <a href="{{ site.url }}/categories/#{{ cat }}" title="{{ cat }}">{{ cat }}</a>&nbsp;
   {% endfor %}
 </span>
 {% endif %}
@@ -37,7 +37,7 @@ layout: default
 <span class="tags">
   tagged with
   {% for tag in page.tags %}
-  <a href="{{ site.url }}/blog/tags/#{{ tag }}" title="{{ tag }}">{{ tag }}</a>&nbsp;
+  <a href="{{ site.url }}/tags/#{{ tag }}" title="{{ tag }}">{{ tag }}</a>&nbsp;
   {% endfor %}
 </span>
 {% endif %}
