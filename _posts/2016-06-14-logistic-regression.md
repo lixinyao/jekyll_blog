@@ -12,9 +12,9 @@ tags:
 
 # 二分类logistic回归介绍
 
-逻辑回归是用来解决分类问题的统计或机器学习模型，这里我们只介绍最简单的 **二分类** 。常见的应用有识别垃圾邮件、判断病人是否有某种疾病、预测客户是否买房等等。
+logistic回归是用来解决分类问题的统计或机器学习模型，这里我们只介绍最简单的 **二分类logistic回归** 。这个模型经常用于识别垃圾邮件、判断病人是否有疾病、预测客户是否买房等等。
 
-## logistic函数和logit变换
+## 1.logistic函数和logit变换
 
 现在普及两个基础函数：
 
@@ -32,17 +32,25 @@ ggplot(data.frame(x = c(-8,8)),aes(x)) +
                 size = 1)
 ```
 
-logistic函数图形如下：
+logistic函数图形如下，它是 **Sigmoid函数** 最重要的代表：
 
 ![](https://raw.githubusercontent.com/lixinyao/lixinyao.github.io/master/pictures/2016/logistic_fun.png)
 
-## 二分类logistic回归详解
+## 2.二分类logistic回归详解
 
 比如要解决二分类问题，我们最先想到的是建立个线性回归方程 $y_{i}=\beta_{0}+\beta_{1}x_{1}+\beta_{2}x_{2}+...+\beta_{n}x_{n}$ 。但是这个回归方程 $y_{i}$ 的取值范围不受约束，而 $y_{i}$在分类问题中应该只有 **1** 和 **0** 两个取值，自然想到将它代入logistic函数，得 $f(y_{i})=\frac{1}{1+e^{-y_{i}}}$ ，$f(y_{i})$ 取值在0～1之间。
 
 这样的话，我们的 **logistic回归方程** 就是
 
-$$f(y_{i})=\frac{1}{1+e^{-(\beta _{0}+\beta _{1}x_{1}+...+\beta _{n}x_{n})}}$$
+$$y=f(y_{i})=\frac{1}{1+e^{-(\beta _{0}+\beta _{1}x_{1}+...+\beta _{n}x_{n})}}$$
+
+### odds和log odds
+
+logistic回归方程可以变化为下面的形式：
+
+$$ln\frac{y}{1-y}=\beta _{0}+\beta _{1}x_{1}+...+\beta _{n}x_{n}$$
+
+其中 $y$ 表示 $x$ 出现的可能性，$1-y$ 表示不出现的可能性。 $\frac{y}{1-y}$ 是 **odds** ，$ln\frac{y}{1-y}$ 是 **log odds**
 
 有了回归方程后就可以用 **极大似然估计进行参数估计** 。假设有n个独立的训练样本，$(x_{1},y_{1}),(x_{2},y_{2})...(x_{n},y_{n})$ , $y\in (0,1)$
 
@@ -62,7 +70,7 @@ $$lnL(w)=\sum_{i=1}^{m}[y_{i}lnp_{i}+(1-y_{i})ln(1-p_{i})]$$
 
 接下来的问题就是最大化似然函数来求解参数。这里就要用到一些经典的 **数值优化算法**
 
-## 参数求解方法
+## 3.参数求解方法
 
 ### 梯度下降法(gradient descent)
 
