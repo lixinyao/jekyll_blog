@@ -6,5 +6,3 @@ permalink: /:year/:month/:title/
 url: http://www.xinyao.pub
 author: 李昕垚
 highlighter: rouge
-baseurl: /blog
-paginate: 15
