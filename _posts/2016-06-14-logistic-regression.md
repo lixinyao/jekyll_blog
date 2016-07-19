@@ -14,7 +14,7 @@ tags:
 
 logistic回归是用来解决分类问题的统计或机器学习模型，这里我们只介绍最简单的 **二分类logistic回归** 。这个模型经常用于识别垃圾邮件、判断病人是否有疾病、预测客户是否买房等等。
 
-## 1.logistic函数和logit变换
+## 1. logistic函数和logit变换
 
 现在普及两个基础函数：
 
@@ -36,7 +36,7 @@ logistic函数图形如下，它是 **Sigmoid函数** 最重要的代表：
 
 ![](https://raw.githubusercontent.com/lixinyao/lixinyao.github.io/master/pictures/2016/logistic_fun.png)
 
-## 2.二分类logistic回归详解
+## 2. 二分类logistic回归详解
 
 比如要解决二分类问题，我们最先想到的是建立个线性回归方程 $y_{i}=\beta_{0}+\beta_{1}x_{1}+\beta_{2}x_{2}+...+\beta_{n}x_{n}$ 。但是这个回归方程 $y_{i}$ 的取值范围不受约束，而 $y_{i}$在分类问题中应该只有 **1** 和 **0** 两个取值，自然想到将它代入logistic函数，得 $f(y_{i})=\frac{1}{1+e^{-y_{i}}}$ ，$f(y_{i})$ 取值在0～1之间。
 
@@ -70,7 +70,7 @@ $$lnL(w)=\sum_{i=1}^{m}[y_{i}lnp_{i}+(1-y_{i})ln(1-p_{i})]$$
 
 接下来的问题就是最大化似然函数来求解参数。这里就要用到一些经典的 **数值优化算法**
 
-## 3.参数求解方法
+## 3. 参数求解方法
 
 ### 梯度下降法(gradient descent)
 
