@@ -95,3 +95,59 @@ geom_segment(aes(5,25,xend=4,yend=16),arrow=arrow(),size=1,color="red")
 牛顿法是二阶收敛，相比一阶收敛的梯度下降法能更快的找到最优解
 
 ### 拟牛顿法(newton-raphson method)
+
+## 5. R语言实例
+
+```r
+# logistic regression
+library(dplyr)
+library(ggplot2)
+library(tidyr)
+iris_total = iris %>%
+  filter(
+    Species %in% c("versicolor","virginica")
+  )
+head(iris_total)
+# logistic model
+logit.fit = glm(Species ~ Petal.Width + Petal.Length,
+                family = binomial(link = "logit"),
+                data = iris_total)
+# prediction
+logit.prediction = ifelse(predict(logit.fit) > 0,
+                          "virginica","versicolor")
+iris_total$logitSpecies = logit.prediction
+# gather species and logitspecies
+x = iris_total %>%
+  gather(
+    models,
+    Species,
+    Species:logitSpecies
+  )
+```
+
+`x`数据集如下，其中 **models** 为 *Species* 的是花瓣真实分类， *logitSpecies* 代表 *logistic回归* 预测的分类
+
+```r
+> head(x)
+  Sepal.Length Sepal.Width Petal.Length Petal.Width  models    Species
+1          7.0         3.2          4.7         1.4 Species versicolor
+2          6.4         3.2          4.5         1.5 Species versicolor
+3          6.9         3.1          4.9         1.5 Species versicolor
+4          5.5         2.3          4.0         1.3 Species versicolor
+5          6.5         2.8          4.6         1.5 Species versicolor
+6          5.7         2.8          4.5         1.3 Species versicolor
+```
+
+下图比较预测值和真实值的区别，可以看到预测的结果还是不错的～
+
+```r
+p = ggplot(data = x,
+           aes(Petal.Width,Petal.Length,
+               color = Species,
+               shape = Species)) +
+  geom_point() +
+  scale_color_brewer(palette = "Set1") +
+  facet_grid(models~.)
+p
+```
+![](https://raw.githubusercontent.com/lixinyao/lixinyao.github.io/master/pictures/2016/iris_logistic.png)
