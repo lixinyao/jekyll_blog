@@ -64,7 +64,7 @@ $y$ 和 $1-y$ 分别写为
 
 $$p(y=1|\mathbf{x})=\frac{1}{1+e^{-(\mathbf{w}^{T}\mathbf{x}+b)}}$$
 
-$$p(y=1|\mathbf{x})=\frac{e^{-(\mathbf{w}^{T}\mathbf{x}+b)}}{1+e^{-(\mathbf{w}^{T}\mathbf{x}+b)}}$$
+$$p(y=0|\mathbf{x})=\frac{e^{-(\mathbf{w}^{T}\mathbf{x}+b)}}{1+e^{-(\mathbf{w}^{T}\mathbf{x}+b)}}$$
 
 假设有n个独立的训练样本，$(x_{1},y_{1}),(x_{2},y_{2})...(x_{n},y_{n})$ , $y\in (0,1)$
 
