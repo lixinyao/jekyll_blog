@@ -162,4 +162,16 @@ p = ggplot(data = x,
   facet_grid(models~.)
 p
 ```
+
 ![](https://raw.githubusercontent.com/lixinyao/lixinyao.github.io/master/pictures/2016/iris_logistic.png)
+
+```r
+> table(iris_total$Species,iris_total$logitSpecies)
+
+             versicolor virginica
+  setosa              0         0
+  versicolor         47         3
+  virginica           3        47
+```
+
+一共100个样本，分类错误样本为6个，正确率94%
