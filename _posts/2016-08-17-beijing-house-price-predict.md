@@ -5,4 +5,9 @@ categories: [R]
 tags: [R]
 ---
 
-下载[逐步回归法解释北京房价](https://github.com/lixinyao/lixinyao.github.io/blob/master/pdf/%E5%9B%9E%E5%BD%92%E5%88%86%E6%9E%90.pdf)
+~~下载[逐步回归法解释北京房价](https://github.com/lixinyao/lixinyao.github.io/blob/master/pdf/%E5%9B%9E%E5%BD%92%E5%88%86%E6%9E%90.pdf)~~
+
+以上链接的文章的用 **M2** 和 **国内信贷** 来预测北京的房价，暂时有两个问题，以后继续修正～
+
+1. M2和国内信贷强相关。央行贴现 -> 商业银行贷款 -> 企业和居民。央行通过贷款给商业银行发放货币(M2包括现金、支票和存款)，商业银行再通过信贷发放给需要贷款的企业和个人
+2. M2和国内信贷都取的是全国的数据，而预测的是北京的房价，存在逻辑问题
