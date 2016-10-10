@@ -14,9 +14,27 @@ tags:
 
 ![](https://raw.githubusercontent.com/lixinyao/lixinyao.github.io/master/pictures/life/fandigang1.jpg)
 
-方尖碑后的圆顶建筑为圣彼得大教堂。 **圣彼得** 为耶稣十二门徒之一，最后殉道，被 **倒钉** 在十字架上，因为他觉得自己不配钉在十字架上。天主教会认为圣彼得创建了罗马教会，为罗马教会第一任教宗。
-
 ![](https://raw.githubusercontent.com/lixinyao/lixinyao.github.io/master/pictures/life/fandigang2.jpg)
+
+方尖碑后的圆顶建筑为圣彼得大教堂。 **圣彼得** 为耶稣十二门徒之一，最后殉道，被 **倒钉** 在十字架上，因为他觉得自己不配钉在十字架上。天主教会认为圣彼得创建了罗马教会，为罗马教会第一任教宗。下面是 **圣彼得的雕塑** ：
+
+![](https://raw.githubusercontent.com/lixinyao/lixinyao.github.io/master/pictures/life/shengbide.jpg)
+
+**圣彼得大教堂** 是天主教的象征，是世界上最大的教堂，也是最杰出的文艺复兴建筑。米开朗琪罗、拉斐尔都参与了大殿的设计。以下是教堂内的壮观景象：
+
+![](https://raw.githubusercontent.com/lixinyao/lixinyao.github.io/master/pictures/life/shengbide1.jpg)
+
+![](https://raw.githubusercontent.com/lixinyao/lixinyao.github.io/master/pictures/life/shengbide2.jpg)
+
+![](https://raw.githubusercontent.com/lixinyao/lixinyao.github.io/master/pictures/life/shengbide3.jpg)
+
+![](https://raw.githubusercontent.com/lixinyao/lixinyao.github.io/master/pictures/life/shengbide4.jpg)
+
+![](https://raw.githubusercontent.com/lixinyao/lixinyao.github.io/master/pictures/life/shengbide5.jpg)
+
+还有教廷的 **瑞士护卫队** ，要求极为严格。必须是瑞士籍未婚男性、身高175以上、几代天主教徒，完成瑞士的军队训练
+
+![](https://raw.githubusercontent.com/lixinyao/lixinyao.github.io/master/pictures/life/swisshuweidui.jpg)
 
 # 意大利
 
