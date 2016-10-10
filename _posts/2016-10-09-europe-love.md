@@ -10,6 +10,14 @@ tags:
 
 # 梵蒂冈
 
+**梵蒂冈** 位于意大利罗马西北角，是国中之国、城中之国，为天主教会最高权利机构所在地，是全世界的信仰中心。梵蒂冈是世界上面积最小的主权国家，只有0.44平方公里，相当于天安门广场的面积。梵蒂冈最有名的建筑物是 **圣彼得广场** 和 **圣彼得大教堂** 。圣彼得广场为巴洛克式风格，由著名雕塑家、建筑家 **贝尼尼** 设计。广场上耸立着四千年历史的 **埃及方尖碑** ，衬托出当初罗马帝国的强大(16世纪教皇从罗马搬到了今天的位置)
+
+![](https://raw.githubusercontent.com/lixinyao/lixinyao.github.io/master/pictures/life/fandigang1.jpg)
+
+方尖碑后的圆顶建筑为圣彼得大教堂。 **圣彼得** 为耶稣十二门徒之一，最后殉道，被 **倒钉** 在十字架上，因为他觉得自己不配钉在十字架上。天主教会认为圣彼得创建了罗马教会，为罗马教会第一任教宗。
+
+![](https://raw.githubusercontent.com/lixinyao/lixinyao.github.io/master/pictures/life/fandigang2.jpg)
+
 # 意大利
 
 ## 罗马
