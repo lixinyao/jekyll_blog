@@ -58,6 +58,10 @@ tags:
 
 ## 比萨
 
+**比萨** 完全是由于 **比萨斜塔** 而闻名于世的。科学家 **伽利略** 是比萨人，在比萨斜塔上做了著名的 **两个铁球同时落地** ，推翻了亚里士多德不同重量物体下落速度不同的观点。
+
+![](https://raw.githubusercontent.com/lixinyao/lixinyao.github.io/master/pictures/life/比萨斜塔.jpg)
+
 ## 佛罗伦萨
 
 ## 威尼斯
