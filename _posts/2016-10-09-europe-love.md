@@ -64,6 +64,32 @@ tags:
 
 ## 佛罗伦萨
 
+**佛罗伦萨** 被徐志摩翻译为 **翡冷翠** 。佛罗伦萨长期处于美第奇家族的控制之下，是欧洲中世纪重要的文化、商业中心，是 **文艺复兴** 的诞生地、艺术和建筑的摇篮。但丁、达芬奇、米开朗琪罗、伽利略都在此活动。
+
+**圣十字大教堂** 安葬着米开朗琪罗、伽利略等杰出人物，被称为 **意大利的先贤祠** 。
+
+![](https://raw.githubusercontent.com/lixinyao/lixinyao.github.io/master/pictures/life/圣十字大教堂.jpg)
+
+**但丁** 是意大利中世纪诗人、文艺复兴的开拓人物，因史诗 **神曲** 成为欧洲最伟大的诗人。神曲分地狱、炼狱、天堂三部分。下面是但丁的雕塑以及但丁故居：
+
+![](https://raw.githubusercontent.com/lixinyao/lixinyao.github.io/master/pictures/life/但丁雕塑.jpg)
+
+![](https://raw.githubusercontent.com/lixinyao/lixinyao.github.io/master/pictures/life/但丁故居.jpg)
+
+**圣母百花大教堂** 是世界上外观最美的教堂，连米开朗琪罗都自叹不如。教堂以白、绿、粉红三色大理石建成，为哥特式建筑。
+
+圆顶：
+
+![](https://raw.githubusercontent.com/lixinyao/lixinyao.github.io/master/pictures/life/圣母百花大教堂1.jpg)
+
+正门：
+
+![](https://raw.githubusercontent.com/lixinyao/lixinyao.github.io/master/pictures/life/圣母百花大教堂2.jpg)
+
+外观细节：
+
+![](https://raw.githubusercontent.com/lixinyao/lixinyao.github.io/master/pictures/life/圣母百花大教堂3.jpg)
+
 ## 威尼斯
 
 # 瑞士
