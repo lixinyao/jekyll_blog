@@ -32,13 +32,29 @@ tags:
 
 ![](https://raw.githubusercontent.com/lixinyao/lixinyao.github.io/master/pictures/life/shengbide5.jpg)
 
-还有教廷的 **瑞士护卫队** ，要求极为严格。必须是瑞士籍未婚男性、身高175以上、几代天主教徒，完成瑞士的军队训练
+还有教廷的 **瑞士护卫队** ，要求极为严格。必须是瑞士籍未婚男性、身高175以上、几代天主教徒，完成瑞士的军队训练。
 
 ![](https://raw.githubusercontent.com/lixinyao/lixinyao.github.io/master/pictures/life/swisshuweidui.jpg)
 
 # 意大利
 
+**意大利** 是欧洲南部的国家，是欧盟第三大经济强国，由亚平宁半岛、西西里岛、撒丁岛组成，地图像一只靴子踢起两个足球。以历史悠久、文化繁荣、足球、美食而闻名世界。
+
 ## 罗马
+
+**罗马** 是意大利的首都，也是意大利的政治、经济、文化中心，是强大的古罗马帝国的中心，也是文艺复兴的中心。
+
+**古罗马斗兽场** 又叫 **古罗马竞技场** ，是古罗马帝国的标志性建筑之一。斗兽场是角斗士与猛兽搏斗的地方，有时候也有人与人的搏斗。
+
+![](https://raw.githubusercontent.com/lixinyao/lixinyao.github.io/master/pictures/life/斗兽场.jpg)
+
+**君士坦丁凯旋门** 是为了纪念君士坦丁一世于312年10月28日的米尔维安大桥战役中大获全胜而建立的。
+
+![](https://raw.githubusercontent.com/lixinyao/lixinyao.github.io/master/pictures/life/君士坦丁凯旋门.jpg)
+
+位于 **Palatino** 山的古罗马遗迹。
+
+![](https://raw.githubusercontent.com/lixinyao/lixinyao.github.io/master/pictures/life/古罗马遗迹.jpg)
 
 ## 比萨
 
