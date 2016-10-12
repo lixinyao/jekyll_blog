@@ -130,7 +130,7 @@ tags:
 
 阿尔卑斯山脉最著名的山峰 —— **少女峰**
 
-![](https://raw.githubusercontent.com/lixinyao/lixinyao.github.io/master/pictures/life/因特拉肯4.jpg)
+![](https://raw.githubusercontent.com/lixinyao/lixinyao.github.io/master/pictures/life/少女峰.jpg)
 
 # 法国
 
