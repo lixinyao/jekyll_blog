@@ -124,11 +124,13 @@ tags:
 
 ![](https://raw.githubusercontent.com/lixinyao/lixinyao.github.io/master/pictures/life/因特拉肯2.jpg)
 
+下图白色的雪山是 **少女峰**
+
 ![](https://raw.githubusercontent.com/lixinyao/lixinyao.github.io/master/pictures/life/因特拉肯3.jpg)
 
 ![](https://raw.githubusercontent.com/lixinyao/lixinyao.github.io/master/pictures/life/因特拉肯4.jpg)
 
-阿尔卑斯山脉最著名的山峰 —— **少女峰**
+阿尔卑斯山脉最著名的山峰 —— **少女峰** 。左数第三座中间那个就是少女峰
 
 ![](https://raw.githubusercontent.com/lixinyao/lixinyao.github.io/master/pictures/life/少女峰.jpg)
 
