@@ -114,9 +114,23 @@ tags:
 
 # 瑞士
 
+**瑞士** 是一个内陆山地国家，阿尔卑斯山脉最美的山峰几乎都在瑞士。大家都知道瑞士是一个中立国家，所以有了富豪们都爱存钱的 **瑞士银行** 。另外 **瑞士手表和军刀** 也都享誉世界。瑞士人生活特别幸福，收入高生活水准高。可惜这么好的国家一般不接受移民。
+
 ## 因特拉肯
 
-### 雪朗峰
+**因特拉肯** 是瑞士著名的旅游城市，一年四季风景醉人，西边有图恩湖，东边有布里恩茨湖，地理位置绝佳。下面是圣境般的因特拉肯：
+
+![](https://raw.githubusercontent.com/lixinyao/lixinyao.github.io/master/pictures/life/因特拉肯1.jpg)
+
+![](https://raw.githubusercontent.com/lixinyao/lixinyao.github.io/master/pictures/life/因特拉肯2.jpg)
+
+![](https://raw.githubusercontent.com/lixinyao/lixinyao.github.io/master/pictures/life/因特拉肯3.jpg)
+
+![](https://raw.githubusercontent.com/lixinyao/lixinyao.github.io/master/pictures/life/因特拉肯4.jpg)
+
+阿尔卑斯山脉最著名的山峰 —— **少女峰**
+
+![](https://raw.githubusercontent.com/lixinyao/lixinyao.github.io/master/pictures/life/因特拉肯4.jpg)
 
 # 法国
 
