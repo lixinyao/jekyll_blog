@@ -92,6 +92,26 @@ tags:
 
 ## 威尼斯
 
+**威尼斯** 是意大利东北部著名的旅游与工业城市。曾经是威尼斯共和国的中心，而且是13世纪至17世纪一个非常重要的商业和艺术重镇，大量的香料和毛皮在威尼斯贸易。后来由于大航海时代新航线的发现，威尼斯因此失去了以往的影响力。
+
+![](https://raw.githubusercontent.com/lixinyao/lixinyao.github.io/master/pictures/life/威尼斯.jpg)
+
+**克莱奥尼** 是文艺复兴时期威尼斯的将领，治军有方，后来有人雕像以纪念他
+
+![](https://raw.githubusercontent.com/lixinyao/lixinyao.github.io/master/pictures/life/克莱奥尼.jpg)
+
+**贡多拉** 是装饰华美的威尼斯特有的黑色平底船，两头高翘有独特的美感。完全手工打造，大概一艘要7～8万欧，被称为水上奔驰
+
+![](https://raw.githubusercontent.com/lixinyao/lixinyao.github.io/master/pictures/life/贡多拉.jpg)
+
+**圣马可教堂** 是世界知名教堂，为哥特式建筑，存放着圣马可的遗骸。浮雕和图案都令人叹为观止。
+
+![](https://raw.githubusercontent.com/lixinyao/lixinyao.github.io/master/pictures/life/圣马可教堂.jpg)
+
+**圣马可钟楼** 原先是码头的暸望塔，后来伽利略在钟楼上展示了他的望远镜，从此伽利略一举成名
+
+![](https://raw.githubusercontent.com/lixinyao/lixinyao.github.io/master/pictures/life/圣马可钟楼.jpg)
+
 # 瑞士
 
 ## 因特拉肯
