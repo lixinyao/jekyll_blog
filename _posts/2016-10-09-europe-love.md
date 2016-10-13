@@ -104,6 +104,10 @@ tags:
 
 ![](https://raw.githubusercontent.com/lixinyao/lixinyao.github.io/master/pictures/life/贡多拉.jpg)
 
+**叹息桥** 的名字是19世纪时，由英国诗人、“风骚的浪漫主义文学泰斗”拜伦勋爵所取的，囚犯们在总督府接受审判被宣判后，从总督府经由叹息桥走向死牢，他们面临的将是永别俗世，叹息桥有如隔绝生死两世，所以从密不透气的叹息桥走过时，从桥上的窗口望出最后一眼美丽的威尼斯，不禁一声长叹(来源：维基百科)
+
+![](https://raw.githubusercontent.com/lixinyao/lixinyao.github.io/master/pictures/life/叹息桥.jpg)
+
 **圣马可教堂** 是世界知名教堂，为哥特式建筑，存放着圣马可的遗骸。浮雕和图案都令人叹为观止。
 
 ![](https://raw.githubusercontent.com/lixinyao/lixinyao.github.io/master/pictures/life/圣马可教堂.jpg)
