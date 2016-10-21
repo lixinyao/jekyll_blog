@@ -15,7 +15,7 @@ all.files = list.files(path = "yourpath",
                        full.name = TRUE,
                        pattern = ".csv")
 # 读入数据
-mylist = lapply(all.files,function(i) read.csv(i))
+mylist = lapply(all.files,function(i) read_csv(i,locale = locale(encoding = "GB18030")))
 # 合并为数据框
 mydata = do.call('rbind',mylist)
 head(mydata)
