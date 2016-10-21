@@ -20,6 +20,8 @@ mylist = lapply(all.files,function(i) read_csv(i,locale = locale(encoding = "GB1
 mydata = do.call('rbind',mylist)
 head(mydata)
 dim(mydata)
+# 如DBA说，我不要NA，我要空
+mydata[is.na(mydata)] = ""
 # 输出txt
 write.table(mydata,file="yourpath",
             quote = FALSE,
