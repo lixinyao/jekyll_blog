@@ -52,3 +52,11 @@ max_allowed_packet = 9999999M
 ```sql
 source datadir/data.sql
 ```
+
+# 远程服务器数据复制到本地
+
+**在本地执行:**
+
+```shell
+sudo scp username@ip:/data0/MysqlDB/mysql/BI_Data/bbbb.txt /Users/lixinyao
+```
