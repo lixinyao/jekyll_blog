@@ -142,14 +142,92 @@ tags:
 
 ## 巴黎
 
+以下内容来自“百度百科”：
+**巴黎**（英语：Paris），是法兰西共和国的首都，法国最大城市，欧洲第二大城市，法国的政治、经济、文化、商业中心。巴黎是世界四大国际化都市之一，其余分别为纽约，伦敦，东京。
+巴黎位于法国北部巴黎盆地的中央，横跨塞纳河两岸。巴黎有小巴黎、大巴黎之分。小巴黎指大环城公路以内的巴黎城市内，面积105.4平方公里，人口200多万；大巴黎包括城区周围的上塞纳省、瓦勒德马恩省、塞纳-圣但尼省、伊夫林省、瓦勒德瓦兹省、塞纳-马恩省和埃松省[2]  七个省，共同组成巴黎大区，这片地区在古代就已经被称作“法兰西岛”（ile-de-france），面积达12000平方公里，人口约1000万，几乎占全国人口的五分之一。
+
 ### 凡尔赛宫
+
+**凡尔赛宫** 位于巴黎西南郊外伊夫林省省会凡尔赛镇。1682～1789是法国的王宫。路易十四建造凡尔赛宫有两个原因，一个是被财政大臣府邸的富丽堂皇所折服，另一个是巴黎的动乱让国王有了迁走宫廷的想法。
+
+![](https://raw.githubusercontent.com/lixinyao/lixinyao.github.io/master/pictures/life/凡尔赛宫1.jpg)
+
+![](https://raw.githubusercontent.com/lixinyao/lixinyao.github.io/master/pictures/life/凡尔赛宫2.jpg)
+
+**太阳王** 路易十四（法语：Louis XIV，1638年9月5日－1715年9月1日），全名路易·迪厄多内·波旁（Louis-Dieudonne），自号太阳王（法语：le Roi Soleil），1680年更接受巴黎市政会献上的“大帝”（le Grand，路易大帝）尊号。他是波旁王朝的法国国王和纳瓦拉国王，从1643年至1715年在位，长达72年3月18天，是在位时间最长的君主之一，也是有确切记录在世界历史中在位最久的独立主权君主。以下是他的雕塑。
+
+![](https://raw.githubusercontent.com/lixinyao/lixinyao.github.io/master/pictures/life/路易十四.jpg)
+
+王后寝室
+
+![](https://raw.githubusercontent.com/lixinyao/lixinyao.github.io/master/pictures/life/凡尔赛宫3.jpg)
+
+国王寝室
+
+![](https://raw.githubusercontent.com/lixinyao/lixinyao.github.io/master/pictures/life/凡尔赛宫4.jpg)
+
+著名的 **镜厅** 一角
+
+![](https://raw.githubusercontent.com/lixinyao/lixinyao.github.io/master/pictures/life/凡尔赛宫5.jpg)
 
 ### 塞纳河
 
+**塞纳河** 是个浪漫的地方，情侣来巴黎不能不去塞纳河
+
+![](https://raw.githubusercontent.com/lixinyao/lixinyao.github.io/master/pictures/life/塞纳河1.jpg)
+
+![](https://raw.githubusercontent.com/lixinyao/lixinyao.github.io/master/pictures/life/塞纳河2.jpg)
+
+![](https://raw.githubusercontent.com/lixinyao/lixinyao.github.io/master/pictures/life/塞纳河3.jpg)
+
 ### 埃菲尔铁塔
+
+**埃菲尔铁塔**（法语：La Tour Eiffel，也常称为巴黎铁塔）是位于法国巴黎战神广场的铁制镂空塔（尖顶处324米），为世界著名建筑，也是法国文化象征之一，巴黎城市地标之一，巴黎最高建筑物，得名自其设计师居斯塔夫·埃菲尔，属于世界建筑史上的技术杰作。
+
+![](https://raw.githubusercontent.com/lixinyao/lixinyao.github.io/master/pictures/life/埃菲尔铁塔1.jpg)
+
+![](https://raw.githubusercontent.com/lixinyao/lixinyao.github.io/master/pictures/life/埃菲尔铁塔2.jpg)
 
 ### 巴黎圣母院
 
+**巴黎圣母院**（法语：Notre-Dame de Paris），正式名称为巴黎圣母主教座堂（法语：Cathédrale Notre-Dame de Paris），是位于法国巴黎市中心、塞纳河中西堤岛上的天主教教堂，也是天主教巴黎总教区的主教座堂，约建造于1163年到1250年间，属哥特式建筑形式，是法兰西岛地区的哥特式教堂群里面，非常具有关键代表意义的一座。
+
+![](https://raw.githubusercontent.com/lixinyao/lixinyao.github.io/master/pictures/life/巴黎圣母院1.jpg)
+
+![](https://raw.githubusercontent.com/lixinyao/lixinyao.github.io/master/pictures/life/巴黎圣母院2.jpg)
+
 ### 卢浮宫
 
-### 凯旋门
+**卢浮宫**（法语：Musée du Louvre）位于法国巴黎市中心的塞纳河边，原是法国的监狱，现在是卢浮宫博物馆，拥有艺术收藏达3.5万件，包括雕塑、绘画、美术工艺及古代东方、古代埃及和古希腊罗马等7个门类，主要收藏1860年以前的艺术作品与考古文物。
+
+卢浮宫外观及贝聿铭设计的玻璃金字塔
+
+![](https://raw.githubusercontent.com/lixinyao/lixinyao.github.io/master/pictures/life/卢浮宫.jpg)
+
+以下是卢浮宫的镇馆之宝：
+
+**胜利女神**
+
+![](https://raw.githubusercontent.com/lixinyao/lixinyao.github.io/master/pictures/life/胜利女神.jpg)
+
+**米洛的维纳斯**，表现的是希腊神话中爱与美的女神阿佛洛狄忒，罗马神话中与之对应的是维纳斯女神
+
+![](https://raw.githubusercontent.com/lixinyao/lixinyao.github.io/master/pictures/life/维纳斯.jpg)
+
+**狮身人面像**
+
+![](https://raw.githubusercontent.com/lixinyao/lixinyao.github.io/master/pictures/life/狮身人面像.jpg)
+
+**汉谟拉比法典**
+
+![](https://raw.githubusercontent.com/lixinyao/lixinyao.github.io/master/pictures/life/汉谟拉比法典.jpg)
+
+**蒙娜丽莎** ，意大利语：La Gioconda；法语：La Joconde；英语：Mona Lisa）是文艺复兴时期画家 **列奥纳多·达·芬奇** 所绘的肖像画，其之代表作
+
+![](https://raw.githubusercontent.com/lixinyao/lixinyao.github.io/master/pictures/life/蒙娜丽莎.jpg)
+
+### 巴黎凯旋门
+
+**巴黎凯旋门** 。1805年12月2日，拿破仑率领的法国军队在奥斯特利茨战役中击败了俄奥联军，法国的国威达到史无前例的顶峰。为了炫耀国力，并庆祝战争的胜利，在1806年2月12日拿破仑宣布在星形广场（今戴高乐广场）兴建“一道伟大的雕塑”，迎接日后凯旋的法军将士。同年8月15日，按照著名建筑师让·夏格伦的设计开始动土兴建。但后来拿破仑被推翻后，凯旋门工程中途辍止。1830年波旁王朝被推翻后，工程才得以继续。断断续续经过了30年，凯旋门终于在1836年7月29日举行了落成典礼
+
+![](https://raw.githubusercontent.com/lixinyao/lixinyao.github.io/master/pictures/life/巴黎凯旋门.jpg)
